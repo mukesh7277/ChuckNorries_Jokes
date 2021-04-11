@@ -1,0 +1,9 @@
+.categories {
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 40px 40px 40px 40px; 
+    column-gap: 20px;
+    row-gap: 25px;
+    justify-content: center;   
+    grid-template-columns: repeat(4, 100px);
+}
